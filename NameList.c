@@ -10,7 +10,7 @@ char name[MAX];
 int length;
 printf(" Enter the Names to add the list \n");
 printf("Enter the length of the list \n");
-scanf("%d",length);
+scanf("%d",&length);
 for(int i=0;i<length;i++)
 {
 
